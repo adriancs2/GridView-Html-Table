@@ -3,7 +3,7 @@ A Comparison Doing a Table with GridView and Dynamic HTML Table in ASP.NET WebFo
 
 Live site example: http://gridview.adriancs.com
 
-Full article explaination:
+Full article explanation:
 
 Part 1: [adriancs.com](https://adriancs.com/aspnet-webforms/394/gridview-vs-dynamic-html-table-asp-net-webforms/) | [codeproject.com](https://www.codeproject.com/Articles/5346651/Part-1-GridView-vs-Dynamic-HTML-Table-ASP-NET-WebF)
 
