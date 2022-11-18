@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="GridView_HtmlTable.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .nav {
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #808080;
+        }
+
+            .nav table {
+                border-collapse: collapse;
+                background: #ffe8d7;
+            }
+
+            .nav td {
+                padding: 10px;
+                border: 1px solid black;
+            }
+    </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3Z2CVE19GT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3Z2CVE19GT');
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    Tutorial:
+    
+    <br />
+    Part 1: 
+    <a href="https://adriancs.com/aspnet-webforms/394/gridview-vs-dynamic-html-table-asp-net-webforms/">adriancs.com</a> |
+    <a href="https://www.codeproject.com/Articles/5346651/GridView-VS-dynamic-HTML-Table-ASP-NET-WebForms">codeproject.com</a><br />
+    Part 2:
+    <a href="https://adriancs.com/c-sharp/404/part-2-gridview-vs-dynamic-html-table-asp-net-webforms/">adriancs.com</a> |
+    <a href="https://www.codeproject.com/Articles/5346769/Part-2-GridView-VS-dynamic-HTML-Table-ASP-NET-WebForms">codeproject.com</a><br />
+
+    <br />
+
+    <div class="nav">
+        <table>
+            <tr>
+                <td>GridView</td>
+                <td><a href="LoadGridView.aspx">Basic</a></td>
+                <td><a href="LoadGridViewStyle.aspx">Style</a></td>
+                <td><a href="LoadGridViewStyleEdit.aspx">Table Form</a></td>
+            </tr>
+            <tr>
+                <td>Dynamic HTML Table</td>
+                <td><a href="LoadHtmlTable.aspx">Basic</a></td>
+                <td><a href="LoadHtmlTableStyle.aspx">Style</a></td>
+                <td><a href="LoadHtmlTableStyleEdit.aspx">Table Form</a></td>
+            </tr>
+            <tr>
+                <td>Javascript (AJAX) Table</td>
+                <td></td>
+                <td></td>
+                <td><a href="LoadJavascriptTable.aspx">Table Form</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
