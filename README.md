@@ -1,7 +1,7 @@
 # GridView vs Dynamic HTML Table
 A Comparison Doing a Table with GridView and Dynamic HTML Table in ASP.NET WebForms
 
-Live site example: http://gridview.adriancs.com
+Live Demo: http://gridview.adriancs.com
 
 Full article explanation:
 
